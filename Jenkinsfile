@@ -4,12 +4,12 @@ pipeline{
     stages{
         stage('build'){
             steps{
-                echo 'make'
+                echo 'build'
             }
 
         stage('test'){
               steps{
-                echo make
+                echo 'test'
              }
         }
         }
