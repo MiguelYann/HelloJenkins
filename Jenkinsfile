@@ -4,7 +4,7 @@ pipeline{
     stages{
         stage('build'){
             steps{
-                sh 'javac /src/*.java'
+                sh 'javac testJenkins/src/*.java'
                 echo "tout est OK"
             }
         }
