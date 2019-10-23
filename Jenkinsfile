@@ -6,11 +6,12 @@ pipeline{
             steps{
                 echo 'make'
             }
+            }
          stage('test'){
-         }
               steps{
                 sh make
              }
+
 
 
 
