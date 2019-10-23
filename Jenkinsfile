@@ -10,7 +10,7 @@ pipeline{
         }
         stage('test'){
               steps{
-                echo 'test'
+                sh 'java -cp junit-4.12.jar;. test/*.java'
              }
 
         }
