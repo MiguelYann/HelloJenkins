@@ -4,7 +4,8 @@ pipeline{
     stages{
         stage('build'){
             steps{
-                echo 'build'
+                sh 'javac ./*.java'
+                echo "tout est OK"
             }
         }
         stage('test'){
