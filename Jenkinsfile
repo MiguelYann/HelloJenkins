@@ -6,15 +6,12 @@ pipeline{
             steps{
                 echo 'make'
             }
-            }
-         stage('test'){
+
+        stage('test'){
               steps{
                 echo make
              }
-
-
-
-
-}
-}
+        }
+        }
+    }
 }
